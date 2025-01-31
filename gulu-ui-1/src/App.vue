@@ -1,15 +1,15 @@
 <template>
- <div>hi</div>
- <Xue/>
+ <div>导航栏 |
+  <router-link to="/">Xue</router-link> |
+  <router-link to="/xxx">Xue2</router-link></div>
+ <hr>
+ <router-view />
 </template>
 
 <script>
-import Xue from './components/Xue.vue'
+
 
 export default {
   name: 'App',
-  components: {
-    Xue:Xue  // 标签名：组件的引用
-  }
 }
 </script>
