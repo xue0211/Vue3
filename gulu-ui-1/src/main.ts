@@ -1,6 +1,6 @@
 import { createApp } from 'vue' // 创建APP实例的函数
 import App from './App.vue'
-import './index.css'
+import './index.s   css'
 import {createWebHashHistory, createRouter} from
  'vue-router'
 import Home from './views/Home.vue'
